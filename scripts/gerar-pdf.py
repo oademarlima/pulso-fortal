@@ -3,9 +3,12 @@
 import markdown
 from weasyprint import HTML
 import os
+from pathlib import Path
 
-INPUT = "/opt/data/pulso-fortal/docs/relatorio-final.md"
-OUTPUT = "/opt/data/pulso-fortal/docs/relatorio-final.pdf"
+ROOT = Path(__file__).resolve().parent.parent
+DOCS = ROOT / "docs"
+INPUT = DOCS / "relatorio-final.md"
+OUTPUT = DOCS / "relatorio-final.pdf"
 
 # Read markdown
 with open(INPUT) as f:
@@ -167,7 +170,7 @@ full_html = f"""<!DOCTYPE html>
 </html>"""
 
 # Generate PDF — base_url so relative image paths resolve
-base_url = os.path.dirname(INPUT)
+base_url = str(DOCS)
 HTML(string=full_html, base_url=base_url).write_pdf(OUTPUT)
 print(f"✅ PDF generated: {OUTPUT}")
 print(f"   Size: {os.path.getsize(OUTPUT) / 1024:.1f} KB")
