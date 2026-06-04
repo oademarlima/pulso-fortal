@@ -102,11 +102,11 @@ O desenvolvimento do Pulso Fortal fundamenta-se nos conceitos apresentados nas q
 
 ---
 
-2.Levantamento das Necessidades e Caracterização do Público-Alvo
+# 2.Levantamento das Necessidades e Caracterização do Público-Alvo
 
 Com o objetivo de compreender as principais dificuldades enfrentadas pelos empreendedores na tomada de decisões relacionadas à abertura, expansão e divulgação de negócios, foi aplicado um formulário diagnóstico junto ao público-alvo da solução proposta. A pesquisa buscou identificar o perfil dos usuários, suas necessidades, desafios enfrentados no acesso a informações de mercado e suas expectativas em relação a ferramentas de apoio à gestão e planejamento empresarial. Os resultados obtidos serviram como base para o desenvolvimento da solução tecnológica apresentada neste trabalho. 
 
-2.1 Caracterização do Público-Alvo
+## 2.1 Caracterização do Público-Alvo
 A partir das respostas coletadas, foi possível identificar o perfil dos empreendedores participantes da pesquisa, considerando aspectos como faixa etária, local da empresa e tipo de empreendimento. 
 **Gráfico 1 – Faixa etária dos participantes**
 ![Gráfico de faixa etária](prints/faixa-etaria.png)
@@ -117,7 +117,7 @@ A partir das respostas coletadas, foi possível identificar o perfil dos empreen
 **Gráfico 4 – Negócios dos participantes**
 ![Gráfico de negócios do público-alvo](prints/seu-negocio.png)
 
-2.2 Identificação das Problemáticas 
+## 2.2 Identificação das Problemáticas 
 
 Foram analisadas as principais dificuldades enfrentadas pelos empreendedores no processo de tomada de decisão, especialmente em relação à obtenção de informações sobre mercado, concorrência e potencial econômico das regiões. 
 **Gráfico 5 – Problemáticas dos participantes**
@@ -127,7 +127,7 @@ Foram analisadas as principais dificuldades enfrentadas pelos empreendedores no 
 **Gráfico 7 – Frequência dados**
 ![Gráfico de frequência dados](prints/frequencia-dados.png)
 
-2.3 Necessidades e Expectativas dos Usuários 
+## 2.3 Necessidades e Expectativas dos Usuários 
 Além dos desafios identificados, tentamos compreender quais funcionalidades e informações são consideradas mais relevantes pelos empreendedores, contribuindo para a definição dos requisitos da solução desenvolvida. 
 **Gráfico 8 – Funcionalidade útil**
 ![Gráfico de funcionalidades úteis](prints/funcionalidade-util.png)
