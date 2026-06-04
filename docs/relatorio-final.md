@@ -497,6 +497,7 @@ O protótipo completo está publicado e funcional em:
 ![Radar do MEI — Nichos subatendidos](prints/radar-mei.png)
 
 *Figura 5: Radar do MEI com oportunidades por bairro, scores e checklist de formalização.*
+![Radar do MEI — Vitrine](prints/vitrine.png)
 
 ## 9.2 Impacto Esperado
 
