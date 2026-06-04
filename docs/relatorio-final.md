@@ -497,8 +497,10 @@ O protótipo completo está publicado e funcional em:
 ![Radar do MEI — Nichos subatendidos](prints/radar-mei.png)
 
 *Figura 5: Radar do MEI com oportunidades por bairro, scores e checklist de formalização.*
+
 ![Radar do MEI — Vitrine](prints/vitrine.png)
 
+*Figura 6: Vitrine e perfil empreendedor de bairro.*
 ## 9.2 Impacto Esperado
 
 O Pulso Fortal resolve um problema real de **assimetria de informação** no empreendedorismo de bairro. Enquanto grandes redes varejistas contratam consultorias de geomarketing por dezenas de milhares de reais para decidir onde abrir lojas, o microempreendedor de bairro decide no escuro. O Pulso Fortal democratiza esse tipo de inteligência.
