@@ -102,9 +102,43 @@ O desenvolvimento do Pulso Fortal fundamenta-se nos conceitos apresentados nas q
 
 ---
 
-# 2. Descrição do Espaço do Problema
+2.Levantamento das Necessidades e Caracterização do Público-Alvo
 
-## 2.1 Ambiente de Uso
+Com o objetivo de compreender as principais dificuldades enfrentadas pelos empreendedores na tomada de decisões relacionadas à abertura, expansão e divulgação de negócios, foi aplicado um formulário diagnóstico junto ao público-alvo da solução proposta. A pesquisa buscou identificar o perfil dos usuários, suas necessidades, desafios enfrentados no acesso a informações de mercado e suas expectativas em relação a ferramentas de apoio à gestão e planejamento empresarial. Os resultados obtidos serviram como base para o desenvolvimento da solução tecnológica apresentada neste trabalho. 
+
+2.1 Caracterização do Público-Alvo
+A partir das respostas coletadas, foi possível identificar o perfil dos empreendedores participantes da pesquisa, considerando aspectos como faixa etária, local da empresa e tipo de empreendimento. 
+**Gráfico 1 – Faixa etária dos participantes**
+![Gráfico de faixa etária](prints/faixa-etaria.png)
+**Gráfico 2 – Perfil dos participantes**
+![Gráfico de perfil do público-alvo](prints/perfil-publico.png)
+**Gráfico 3 – Bairros dos participantes**
+![Gráfico de bairros do público-alvo](prints/seu-bairro.png)
+**Gráfico 4 – Negócios dos participantes**
+![Gráfico de negócios do público-alvo](prints/seu-negocio.png)
+
+2.2 Identificação das Problemáticas 
+
+Foram analisadas as principais dificuldades enfrentadas pelos empreendedores no processo de tomada de decisão, especialmente em relação à obtenção de informações sobre mercado, concorrência e potencial econômico das regiões. 
+**Gráfico 5 – Problemáticas dos participantes**
+![Gráfico de problemáticas do público-alvo](prints/dificuldade-local.png)
+**Gráfico 6 – Informações difícieis**
+![Gráfico de informações difíceis](prints/informacoes-dificeis.png)
+**Gráfico 7 – Frequência dados**
+![Gráfico de frequência dados](prints/frequencia-dados.png)
+
+2.3 Necessidades e Expectativas dos Usuários 
+Além dos desafios identificados, tentamos compreender quais funcionalidades e informações são consideradas mais relevantes pelos empreendedores, contribuindo para a definição dos requisitos da solução desenvolvida. 
+**Gráfico 8 – Funcionalidade útil**
+![Gráfico de funcionalidades úteis](prints/funcionalidade-util.png)
+**Gráfico 9 – O que espera?**
+![Gráfico de o que espera](prints/espera-solucao.png)
+
+---
+
+# 3. Descrição do Espaço do Problema
+
+## 3.1 Ambiente de Uso
 
 **Local:** Bairros de Fortaleza (121 bairros oficiais, 7 regionais administrativas).
 
@@ -112,7 +146,7 @@ O desenvolvimento do Pulso Fortal fundamenta-se nos conceitos apresentados nas q
 
 **Contexto de interação:** Momentos de decisão — "vou abrir uma loja", "preciso expandir", "o movimento caiu, será que é o bairro?". Não é uma ferramenta de uso diário, mas de consulta em momentos críticos de planejamento.
 
-## 2.2 Limitações e Desafios do Ambiente
+## 3.2 Limitações e Desafios do Ambiente
 
 | Desafio | Impacto |
 |---------|---------|
@@ -123,9 +157,9 @@ O desenvolvimento do Pulso Fortal fundamenta-se nos conceitos apresentados nas q
 
 ---
 
-# 3. Coleta de Dados — Conhecendo os Usuários
+# 4. Coleta de Dados — Conhecendo os Usuários
 
-## 3.1 Metodologia
+## 4.1 Metodologia
 
 Adotamos uma abordagem **multimétodo** combinando: (a) análise quantitativa de bases públicas (RAIS, IBGE), e (b) dados de questionários estruturados aplicados pelo SEBRAE a microempreendedores brasileiros — a pesquisa "Perfil do MEI" (2023) entrevistou ~10.000 MEIs e a "Sobrevivência de Empresas" (2023) acompanhou ~17.000 empresas, fornecendo uma base de evidências muito superior aos 3-5 entrevistados que conseguiríamos realizar no período letivo. Esta escolha se justifica porque:
 
@@ -145,7 +179,7 @@ Adotamos uma abordagem **multimétodo** combinando: (a) análise quantitativa de
 | **IBGE — PNAD Contínua** | Pesquisa amostral domiciliar | ~70.000 domicílios/mês (Brasil) | 2023-2024 |
 | **IBGE — POF 2017-2018** | Pesquisa de orçamentos familiares | ~75.000 domicílios (Brasil) | 2017-2018 |
 
-## 3.2 Perfil do Microempreendedor de Fortaleza
+## 4.2 Perfil do Microempreendedor de Fortaleza
 
 ### Dados demográficos e econômicos (RAIS 2024)
 
@@ -190,7 +224,7 @@ A pesquisa "Sobrevivência de Empresas" (SEBRAE, 2023) acompanhou 17.000 empresa
 
 A falta de planejamento prévio como principal causa de mortalidade empresarial é o problema que o Pulso Fortal ataca diretamente: ao fornecer dados de bairro, concorrência e poder de compra, a ferramenta reduz a assimetria de informação que leva à abertura de negócios em locais inviáveis.
 
-## 3.3 Validação das hipóteses com dados públicos
+## 4.3 Validação das hipóteses com dados públicos
 
 ### Hipótese 1: "MEIs não sabem quanta concorrência existe no bairro"
 
@@ -212,7 +246,7 @@ A falta de planejamento prévio como principal causa de mortalidade empresarial 
 
 **Validação (PNAD Contínua — TIC 2023):** 98,5% dos domicílios no Ceará acessam a internet via celular; 62% usam exclusivamente o celular (sem computador). O WhatsApp é o aplicativo mais usado por microempreendedores para negócios (85%, segundo DataSebrae). Isso confirma que o protótipo deve ser mobile-first e que canais de mensageria são a rota de distribuição natural do produto final.
 
-## 3.4 Necessidades e dificuldades dos usuários (consolidação)
+## 4.4 Necessidades e dificuldades dos usuários (consolidação)
 
 Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos as seguintes necessidades do público-alvo:
 
@@ -224,7 +258,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 | Precificar com base na renda real do bairro | Média R$ 3.119 vs mediana R$ 1.796 — escolha errada = exclusão de 50% do mercado | Contracheque do Bairro |
 | Identificar nichos antes de saturar | 70% escolhem localização por conveniência, não por análise (SEBRAE) | Radar do MEI |
 
-## 3.5 Citações de estudos de referência
+## 4.5 Citações de estudos de referência
 
 > "A falta de planejamento é apontada por 34% dos empreendedores como a principal razão para o fechamento da empresa." — SEBRAE, Sobrevivência de Empresas (2023)
 
@@ -234,9 +268,9 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 ---
 
-# 4. Planejamento de Requisitos da Solução
+# 5. Planejamento de Requisitos da Solução
 
-## 4.1 Requisitos Funcionais
+## 5.1 Requisitos Funcionais
 
 | RF | Descrição | Prioridade |
 |----|-----------|------------|
@@ -249,7 +283,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 | RF07 | O sistema deve exibir a evolução temporal dos indicadores (série histórica) | Desejável |
 | RF08 | O sistema deve informar a fonte, metodologia e data de atualização de cada indicador | Essencial |
 
-## 4.2 Requisitos Não-Funcionais
+## 5.2 Requisitos Não-Funcionais
 
 | RNF | Descrição | Justificativa |
 |-----|-----------|---------------|
@@ -263,9 +297,9 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 ---
 
-# 5. Documentação das Funcionalidades
+# 6. Documentação das Funcionalidades
 
-## 5.1 Onde Abrir? (📍)
+## 6.1 Onde Abrir? (📍)
 
 **Para quem:** Empreendedor decidindo onde abrir seu primeiro negócio ou expandir para outro bairro.
 
@@ -275,7 +309,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 **Exemplo de uso:** Um empreendedor quer abrir uma padaria artesanal. Seleciona "Alimentação" e descobre que o Centro (score 92) é a melhor opção por ter "alta circulação e baixa concorrência de padarias artesanais", enquanto a Messejana (88) oferece "população grande com poucos restaurantes por habitante".
 
-## 5.2 Termômetro do Bairro (🌡️)
+## 6.2 Termômetro do Bairro (🌡️)
 
 **Para quem:** Comerciante já estabelecido que quer monitorar a economia do seu bairro.
 
@@ -285,7 +319,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 **Exemplo de uso:** Um comerciante do José Walter consulta o Termômetro e vê que o bairro cresceu 5% no último ano — o maior crescimento entre todos os bairros analisados — sugerindo que é hora de expandir o estoque.
 
-## 5.3 Vitrine do Bairro (🏪)
+## 6.3 Vitrine do Bairro (🏪)
 
 **Para quem:** Empreendedor buscando fornecedores locais, parceiros comerciais, ou analisando a concorrência.
 
@@ -295,7 +329,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 **Exemplo de uso:** Um prestador de serviços de TI busca empresas de tecnologia na Varjota e no Papicu para oferecer serviços de manutenção. Descobre 3 empresas-alvo e seus portes.
 
-## 5.4 Contracheque do Bairro (💰)
+## 6.4 Contracheque do Bairro (💰)
 
 **Para quem:** Comerciante definindo estratégia de preços, mix de produtos ou decidindo se a renda do bairro comporta seu negócio.
 
@@ -305,7 +339,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 **Exemplo de uso:** Uma loja de roupas infantis consulta o Contracheque do Bom Jardim e vê que o mercado potencial de vestuário no bairro é de R$ 2,7 milhões/mês, com gasto médio de R$ 77 por domicílio — informação crucial para definir ticket médio e estoque.
 
-## 5.5 Radar do MEI (🎯)
+## 6.5 Radar do MEI (🎯)
 
 **Para quem:** Pessoa física querendo se formalizar como MEI e buscando o melhor nicho e bairro para começar.
 
@@ -317,11 +351,11 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 ---
 
-# 6. Definição da Arquitetura da Solução
+# 7. Definição da Arquitetura da Solução
 
 > **Nota:** esta seção apresenta a arquitetura em dois níveis: (a) a arquitetura real do protótipo entregue, e (b) a arquitetura-alvo para o produto em produção. Esta distinção é deliberada: o protótipo valida a experiência do usuário e a viabilidade técnica; a arquitetura-alvo representa o caminho evolutivo planejado.
 
-## 6.1 Arquitetura do Protótipo (Entregue)
+## 7.1 Arquitetura do Protótipo (Entregue)
 
 **Arquitetura em Camadas (Layered Architecture)** com separação em três camadas, adequada ao escopo de validação:
 
@@ -329,7 +363,7 @@ Com base na triangulação das três fontes (RAIS, SEBRAE, IBGE), consolidamos a
 
 *Figura 6: Arquitetura do protótipo em 3 camadas — apresentação (HTML/CSS/JS), dados (JSON estático) e processamento (pipeline Python offline).*
 
-## 6.2 Justificativa e Caminho Evolutivo
+## 7.2 Justificativa e Caminho Evolutivo
 
 ### Por que arquitetura em camadas para o protótipo?
 
@@ -370,7 +404,7 @@ A arquitetura do protótipo foi projetada como **protótipo evolutivo** — conc
 
 *Figura 7: Caminho evolutivo em três fases — do protótipo estático (R$ 0/mês) ao produto multicanal (R$ 200/mês).*
 
-## 6.3 Arquitetura-Alvo (Produto Final)
+## 7.3 Arquitetura-Alvo (Produto Final)
 
 Para a Fase 3, a arquitetura evolui para um modelo híbrido: **frontend estático + API em camadas + serviços desacoplados para distribuição**:
 
@@ -378,7 +412,7 @@ Para a Fase 3, a arquitetura evolui para um modelo híbrido: **frontend estátic
 
 *Figura 8: Arquitetura-alvo para a Fase 3 — frontend estático preservado, API Gateway FastAPI, PostgreSQL, pipeline ETL e canais de distribuição (WhatsApp e Newsletter).*
 
-## 6.4 Stack Tecnológica
+## 7.4 Stack Tecnológica
 
 | Camada | Tecnologia | Justificativa |
 |--------|-----------|---------------|
@@ -391,15 +425,15 @@ Para a Fase 3, a arquitetura evolui para um modelo híbrido: **frontend estátic
 
 ---
 
-# 7. Protótipo Interativo de Alta Fidelidade
+# 8. Protótipo Interativo de Alta Fidelidade
 
-## 7.1 Tecnologia e Acesso
+## 8.1 Tecnologia e Acesso
 
 O protótipo foi desenvolvido como um **site estático funcional** em HTML/CSS/JS vanilla, hospedado no GitHub Pages. Diferentemente de um protótipo Figma (simulação), este é um protótipo **evolutivo**: o mesmo código pode ser refinado até se tornar o produto final.
 
 **URL:** https://patryckalves.github.io/pulso-fortal/
 
-## 7.2 Telas Implementadas
+## 8.2 Telas Implementadas
 
 | Tela | URL | Funcionalidades |
 |------|-----|-----------------|
@@ -410,7 +444,7 @@ O protótipo foi desenvolvido como um **site estático funcional** em HTML/CSS/J
 | **Contracheque do Bairro** | `/contracheque.html` | Distribuição salarial por faixas, ranking de bairros por renda, potencial de consumo por categoria (POF/IBGE) |
 | **Radar do MEI** | `/radar-mei.html` | Nichos subatendidos (score de oportunidade), ideias de negócio por perfil de bairro, checklist de abertura de MEI |
 
-## 7.3 Design Visual
+## 8.3 Design Visual
 
 - **Paleta de cores:** Fundo creme (#faf9f7), superfície branca, texto preto, laranja (#e8650a) como cor de destaque (referência ao sol do Nordeste)
 - **Tipografia:** Inter (Google Fonts), pesos 400/500/600/700
@@ -418,7 +452,7 @@ O protótipo foi desenvolvido como um **site estático funcional** em HTML/CSS/J
 - **Componentes:** Cards com hover, badges de status, barras de score, gráficos de barras renderizados em CSS puro
 - **Responsividade:** Mobile-first, breakpoint em 768px
 
-## 7.4 Interatividade
+## 8.4 Interatividade
 
 - Navegação completa entre as 6 telas via navbar
 - Filtros dinâmicos: seletores de bairro, setor e categoria em cada tela
@@ -426,15 +460,15 @@ O protótipo foi desenvolvido como um **site estático funcional** em HTML/CSS/J
 - Todos os dados são carregados via fetch() de arquivos JSON estáticos
 - Design system consistente compartilhado via style.css
 
-## 7.5 Descrição Textual das Funcionalidades
+## 8.5 Descrição Textual das Funcionalidades
 
 Inclusa na Seção 5 deste documento.
 
 ---
 
-# 8. Evidências e Relatório Final
+# 9. Evidências e Relatório Final
 
-## 8.1 Evidências
+## 9.1 Evidências
 
 ### Protótipo Online
 
@@ -464,7 +498,7 @@ O protótipo completo está publicado e funcional em:
 
 *Figura 5: Radar do MEI com oportunidades por bairro, scores e checklist de formalização.*
 
-## 8.2 Impacto Esperado
+## 9.2 Impacto Esperado
 
 O Pulso Fortal resolve um problema real de **assimetria de informação** no empreendedorismo de bairro. Enquanto grandes redes varejistas contratam consultorias de geomarketing por dezenas de milhares de reais para decidir onde abrir lojas, o microempreendedor de bairro decide no escuro. O Pulso Fortal democratiza esse tipo de inteligência.
 
@@ -474,7 +508,7 @@ O Pulso Fortal resolve um problema real de **assimetria de informação** no emp
 - **Aumento da renda média dos novos negócios:** ao escolher bairros com maior poder de compra e menor concorrência, o ticket médio sobe.
 - **Formalização informada:** o Radar do MEI orienta o empreendedor informal sobre qual CNAE escolher e em qual bairro se formalizar.
 
-## 8.3 Lições Aprendidas (Start / Stop / Continue)
+## 9.3 Lições Aprendidas (Start / Stop / Continue)
 
 | ▶️ Start | ⏹️ Stop | 🔄 Continue |
 |----------|---------|-------------|
@@ -482,7 +516,7 @@ O Pulso Fortal resolve um problema real de **assimetria de informação** no emp
 | Pipeline offline → JSON estático (performance e simplicidade) | Escopo muito amplo (começamos com 6 ideias, focamos em 5) | Usar dados reais como base (RAIS e IBGE dão credibilidade) |
 | Design system próprio sem frameworks (leve, rápido de iterar) | Idealizar integrações com APIs externas sem validação prévia (CAGED FTP) | Colaboração via Git/GitHub (histórico, revisão, deploy automático) |
 
-## 8.4 Considerações Finais
+## 9.4 Considerações Finais
 
 O Pulso Fortal demonstra que é possível construir inteligência econômica de bairro usando **apenas dados públicos e ferramentas gratuitas**. As limitações encontradas — ausência de bairro na RAIS, CAGED FTP com barreira técnica, dados da Prefeitura desatualizados — são exatamente o tipo de problema que políticas de dados abertos deveriam resolver.
 
